@@ -1,0 +1,43 @@
+:root{
+    --preto: #000;
+    --vermelho: rgb(236, 18, 18);
+    --branco: rgb(240, 222, 222);
+    --cinza: rgb(121, 116, 116);
+}
+body{
+    background-color: var(--preto);
+    color: var(--branco);
+    font-family:fantasy ;
+    height: 100vh;
+    margin: 0;
+}
+header{
+    background-color:var(--vermelho);
+    text-align: center;
+    padding: 1px;
+}
+
+h1{
+    font-size: 2rem;
+    color: var(--preto);
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+}
+nav a{
+    text-decoration: none;
+    color: var(--vermelho);
+    margin: 0 2rem 1rem 0rem;
+    font-size: 1.2rem;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    transform: scale(0.90);
+    transition: transform(0.1s);
+}
